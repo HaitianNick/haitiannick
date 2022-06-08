@@ -1,9 +1,244 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --primary-color: #37392e;
+    --secondary-color: #2e0014;
+    --tertiary-color: #9a8873;
+    --quaternary-color: #eaf4d3;
+    --quinary-color: #c9f0ff;
+    --typeface-one: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --typeface-two: ;
+
+    
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--quaternary-color);
+    font-family: var(--typeface-one);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    padding: 0 10px;
+    color: var(--secondary-color);
+    font-size: 2em;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+a {
+    color: var(--quaternary-color);
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 50%;
+    margin: 5% 5%;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 1em;
+}
+
+header nav ul li a {
+    padding: 19px;
+    font-size: 1.55vw;
+
+}
+
+
+footer ul li a{
+    color: var(--secondary-color);
+}
+
+.title {
+    background-color: var(--quaternary-color);
+    margin: 0 0 30px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('/assets/images/james-harrison-vpOeXr5wmR4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.slogan {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 50px 15px 0;
+}
+
+.slogan p {
+    color: var(--secondary-color);
+    font-family: var(--typeface-one);
+    background-color: rgba(234, 244, 211, 0.7);
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.section-title {
+    border-right: 3px solid var(--secondary-color);
+    width: 15%;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    color: var(--secondary-color);
+}
+.about-me {
+    display: flex;
+}
+
+.about-me-text {
+    width: 80%;
+    margin-top: 30px;
+}
+
+
+.side-projects {
+    /* display: flex; */
+    /* align-items: flex-end; */
+}
+.project-title {
+    background-color: var(--secondary-color);
+    color: var(--quinary-color);
+    width: 25%;
+    margin-top: 50%;
+    
+}
+
+.work {
+    display: flex;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+    margin-top: 0px;   
+}
+
+.main-project {
+    background-image: url(/assets/images/altumcode-dMUt0X3f59Q-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border: 4px solid var(--secondary-color);
+    display: flex;
+    margin-top: 30px;
+}
+
+.smaller-set1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+    outline: 1px solid red;
+    outline-offset: -1px;
+}
+
+#project2 {
+    background-image: url(/assets/images/mohammadreza-alidoost-BLQb3i0L6Q4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 48%;
+    height: 300px;
+    margin-bottom: 20px;;
+    border: 4px solid var(--secondary-color);
+}
+
+#project3 {
+    background-image: url(/assets/images/mohammadreza-alidoost-BLQb3i0L6Q4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 48%;
+    height: 300px;
+    margin-bottom: 20px;;
+    border: 4px solid var(--secondary-color);
+}
+
+.smaller-set2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+
+#project4 {
+    background-image: url(/assets/images/mohammadreza-alidoost-BLQb3i0L6Q4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 48%;
+    height: 300px;
+    margin-bottom: 20px;;
+    border: 4px solid var(--secondary-color);
+}
+#project5 {
+    background-image: url(/assets/images/2022-06-07.png);
+    background-size: cover;
+    background-position: center;
+    width: 48%;
+    height: 300px;
+    margin-bottom: 20px;;
+    border: 4px solid var(--secondary-color);
+}
+
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* .contact-me ul {
+    margin-top: 30px;
+    display: flex;
+    outline: 1px solid red;
+    outline-offset: -1px;
+
 } */
+
+
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 1em;
+}
+
+.contact-info li {
+    padding: 5px;
+    margin: 0 50px;
+
+
+}
