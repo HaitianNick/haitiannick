@@ -42,11 +42,7 @@ h1 {
     font-size: 2em;
 }
 
-h3 {
-    font-weight: bolder;
-}
-
-a {
+header nav ul li a {
     color: var(--quaternary-color);
 }
 
@@ -122,17 +118,19 @@ footer ul li a{
     margin-top: 30px;
 }
 
-
-.side-projects {
-    /* display: flex; */
-    /* align-items: flex-end; */
-}
 .project-title {
     background-color: var(--secondary-color);
     color: var(--quinary-color);
     width: 25%;
     margin-top: 50%;
-    
+    font-size: 1rem;   
+}
+
+.project-title h3 {
+    font-weight: bolder;
+}
+.project-title p {
+    font-weight: lighter;
 }
 
 .work {
@@ -154,16 +152,33 @@ footer ul li a{
     height: 500px;
     border: 4px solid var(--secondary-color);
     display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
     margin-top: 30px;
+    filter: sepia(.5);
+    opacity: .7;
+    transition: all .8s;
+
 }
+
+.main-project .project-title {
+    margin-bottom: 20px;
+}
+
+.main-project:hover {
+    filter: sepia(0);
+    filter: brightness(2);
+    opacity: 1;
+    filter: drop-shadow(0 0 1mm crimson);
+
+}
+
 
 .smaller-set1 {
     display: flex;
     justify-content: space-between;
     margin: 10px;
     width: 100%;
-    outline: 1px solid red;
-    outline-offset: -1px;
 }
 
 #project2 {
@@ -174,7 +189,16 @@ footer ul li a{
     height: 300px;
     margin-bottom: 20px;;
     border: 4px solid var(--secondary-color);
+    filter: sepia(.5);
+    opacity: .7;
+    transition: all .8s;
+
 }
+
+#project2:hover {
+    filter: sepia(0);
+    opacity: 1;
+}  
 
 #project3 {
     background-image: url(/assets/images/mohammadreza-alidoost-BLQb3i0L6Q4-unsplash.jpg);
@@ -184,6 +208,17 @@ footer ul li a{
     height: 300px;
     margin-bottom: 20px;;
     border: 4px solid var(--secondary-color);
+    filter: sepia(.5);
+    opacity: .7;
+    transition: all .8s;
+
+}
+
+#project3:hover {
+    filter: sepia(0);
+    opacity: 1;
+    filter: brightness(130%);
+
 }
 
 .smaller-set2 {
@@ -201,7 +236,16 @@ footer ul li a{
     height: 300px;
     margin-bottom: 20px;;
     border: 4px solid var(--secondary-color);
+    filter: sepia(.5);
+    opacity: .7;
+    transition: all .8s;
 }
+
+#project4:hover {
+    filter: sepia(0);
+    opacity: 1;
+} 
+
 #project5 {
     background-image: url(/assets/images/2022-06-07.png);
     background-size: cover;
@@ -210,6 +254,22 @@ footer ul li a{
     height: 300px;
     margin-bottom: 20px;;
     border: 4px solid var(--secondary-color);
+    filter: sepia(.5);
+    opacity: .7;
+    transition: all .8s;
+}
+
+#project5:hover {
+    filter: sepia(0);
+    opacity: 1;
+} 
+
+#project4 .project-title {
+    width: 30%;
+}
+#project3 .project-title {
+    width: 35%;
+    font-size: 1rem;
 }
 
 .contact-me {
