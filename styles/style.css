@@ -33,6 +33,7 @@ header {
     background-color: var(--primary-color);
     position: -webkit-sticky;
     position: sticky;
+    z-index: 1;
     top: 0;
 }
 
