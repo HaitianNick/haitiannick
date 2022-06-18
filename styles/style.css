@@ -180,8 +180,6 @@ footer ul li a{
     filter: sepia(0);
     filter: brightness(2);
     opacity: 1;
-    filter: drop-shadow(0 0 1mm crimson);
-
 }
 
 
