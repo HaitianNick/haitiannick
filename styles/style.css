@@ -192,7 +192,7 @@ footer ul li a{
 }
 
 #project2 {
-    background-image: url(../assets/images/justin-lane-lwwM_dotpcs-unsplash.jpg);
+    background-image: url(../../assets/images/justin-lane-lwwM_dotpcs-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 48%;
@@ -211,7 +211,7 @@ footer ul li a{
 }  
 
 #project3 {
-    background-image: url(../assets/images/mohammadreza-alidoost-BLQb3i0L6Q4-unsplash.jpg);
+    background-image: url(./assets/images/mohammadreza-alidoost-BLQb3i0L6Q4-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 48%;
@@ -257,7 +257,7 @@ footer ul li a{
 } 
 
 #project5 {
-    background-image: url(./assets/images/altumcode-dMUt0X3f59Q-unsplash.jpg);
+    background-image: url(../assets/images/altumcode-dMUt0X3f59Q-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 48%;
